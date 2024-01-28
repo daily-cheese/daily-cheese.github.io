@@ -6,8 +6,10 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url("https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F086403e2-9263-11ed-b04f-b9bf191ef388.jpg?crop=2747%2C1545%2C44%2C101 ");
-    background-size: cover;
+    /*background-image: url("https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F086403e2-9263-11ed-b04f-b9bf191ef388.jpg?crop=2747%2C1545%2C44%2C101 ");*/
+    /*background-size: cover;*/
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .defheader {
