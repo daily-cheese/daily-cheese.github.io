@@ -5,14 +5,23 @@ function timeUpdate() {
 
     // Get text element to change
     let element = document.getElementById("timeText");
+    let newH = timeArr[0];
+    let newM = timeArr[1];
+    let newS = timeArr[2];
 
-    // If seconds are single digit, add leading 0
+    // If values are single digit, add leading 0
+    if (timeArr[0] < 10) {
+        newH = `0${newH}`;
+    }
+    if (timeArr[1] < 10){
+        newM = `0${newM}`;
+    }
     if (timeArr[2] < 10) {
-        element.innerHTML = `It is ${timeArr[0]}:${timeArr[1]}:0${timeArr[2]}`;
+        newS = `0${newS}`;
     }
-    else {
-        element.innerHTML = `It is ${timeArr[0]}:${timeArr[1]}:${timeArr[2]}`;
-    }
+
+    // update element
+    element.innerHTML = `It is ${newH}:${newM}:${newS}`;
 }
 
 setInterval(timeUpdate, 500);
