@@ -1,3 +1,4 @@
+// Time
 function timeUpdate() {
     // Get date object and find time values
     let d = new Date();
@@ -25,3 +26,5 @@ function timeUpdate() {
 }
 
 setInterval(timeUpdate, 500);
+
+// Arrow up down anim

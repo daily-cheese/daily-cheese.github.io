@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Bagel Fat One', system-ui;
     background: rgb(34,193,195);
     background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
@@ -28,7 +29,14 @@ body {
     padding-inline: 3%;
 }
 
+#scrollBit {
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+}
+
 #big {
-    font-size: 150px;
+    font-size: 140px;
     text-align: center;
 }
