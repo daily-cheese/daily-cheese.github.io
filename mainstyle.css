@@ -1,0 +1,29 @@
+/* variables */
+*{
+    --colour1: coral;
+    --colour2: black;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.defheader {
+    display: flex;
+    align-items: center;
+    background-color: var(--colour1);
+    border-radius: 30px;
+}
+
+.flex1 {
+    flex: 1;
+    padding-inline: 2%;
+}
+
+.defLink {
+    text-decoration: none;
+    color: var(--colour2);
+    padding-inline: 3%;
+}
