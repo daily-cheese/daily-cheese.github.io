@@ -14,19 +14,13 @@
 </head>
 <body>
     <header class="defheader">
-        <!-- Div for small data (LEFT) -->
-        <div class="flex1">
-            <h3>Welcome</h3>
-            <p id="timeText">TIME SHOWN HERE</p>
-        </div>
-
         <!-- Div for central column -->
-        <div class="flex1" style="text-align: center">
-            <h1>A Daily Cheese</h1>
+        <div class="flex1">
+            <p style="font-size: 35px">A Daily Cheese</p>
         </div>
 
         <!-- Div for right data -->
-        <div class="flex1" style="text-align: end">
+        <div class="flex1" style="text-align: end; font-size: 25px;">
             <nav>
                 <span class="menu">
                     <a href="SubPages/hollyreview.html" class="defLink">Holly's Cheese review</a>
@@ -37,9 +31,28 @@
     </header>
     <main>
         <p id="big">Welcome to the<br>Home of Cheese</p>
-        <div id="scrollBit">
-            <p style="font-size: 50px">Scroll to find out...</p>
+        <div id="scrollBit" class="centreAlign" style="margin-top: 14%;">
+            <p style="font-size: 50px">Scroll to find out more...</p>
             <img src="assets/arrowDown-removebg-preview.png" alt="arrow" style="width: 90px;">
+        </div>
+
+        <br><br><br><br><br><br><br><br> <!-- Add breaks to fix buffer -->
+
+        <!-- More info -->
+        <div class="centreAlign" style="display: flex;">
+            <div class="moreInf" onclick="showText1()">
+                <h2>Holly's Cheese Review</h2>
+                <div id="text1" style="opacity: 0">
+                    <p>The most detailed cheese reviews, just for you!</p>
+                </div>
+            </div>
+
+            <div class="moreInf">
+                <p>Cheese: The ultimate tale</p>
+                <p>filler</p>
+                <p>filler</p>
+                <p>filler</p>
+            </div>
         </div>
     </main>
     <footer>

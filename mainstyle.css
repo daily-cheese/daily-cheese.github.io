@@ -29,6 +29,31 @@ body {
     padding-inline: 3%;
 }
 
+.centreAlign {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.moreInf {
+    background-color: white;
+    border-radius: 25px;
+    padding: 1%;
+    flex: 1;
+    margin-inline: 2%;
+
+    width: 600px;
+    height: 100px;
+    transition: height 0.5s;
+}
+
+.moreInf:hover {
+    height: 200px;
+}
+
+
+
 #scrollBit {
     display: flex;
     align-items: center;
