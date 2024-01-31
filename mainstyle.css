@@ -42,14 +42,12 @@ body {
     padding: 1%;
     flex: 1;
     margin-inline: 2%;
-
-    width: 600px;
-    height: 100px;
+    height: 15vh;
     transition: height 0.5s;
 }
 
 .moreInf:hover {
-    height: 200px;
+    height: 25vh;
 }
 
 

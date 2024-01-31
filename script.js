@@ -31,3 +31,8 @@ function showText1() {
     let txt = document.getElementById("text1");
     txt.style.opacity = 1;
 }
+
+function hideText1() {
+    let txt = document.getElementById("text1");
+    txt.style.opacity = 0;
+}
